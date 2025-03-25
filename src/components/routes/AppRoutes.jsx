@@ -3,7 +3,7 @@ import AuthLayout from "../layout/AuthLayout";
 import RegistrationForm from "../auth/Register";
 import Movies from "../Movies";
 import { useState, useEffect } from "react";
-import Login from "../Auth/Login";
+import Login from "../auth/Login";
 
 function AppRoutes() {
   const [token, setToken] = useState(
